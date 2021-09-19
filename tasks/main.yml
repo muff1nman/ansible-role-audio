@@ -1,7 +1,7 @@
 ---
-- name: Install pulseaudio stuff
+- name: Install pipewire stuff
   package:
-    name: pulseaudio,pulseaudio-utils,pulseaudio-module-gconf,pulseaudio-module-x11,pulseaudio-gdm-hooks,alsa-plugins-pulseaudio,pulseaudio-esound-compat
+    name: pipewire,pipewire-pulseaudio,pipewire-utils,pipewire-alsa
 - name: Install pavucontrol
   package:
     name: pavucontrol
