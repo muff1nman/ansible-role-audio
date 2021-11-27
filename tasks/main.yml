@@ -2,6 +2,8 @@
 - name: Install pipewire stuff
   package:
     name: pipewire,pipewire-pulseaudio,pipewire-utils,pipewire-alsa
-- name: Install pavucontrol
+- name: Install pulseaudio control software
   package:
-    name: pavucontrol
+    name:
+      - pavucontrol
+      - pulseaudio-utils
